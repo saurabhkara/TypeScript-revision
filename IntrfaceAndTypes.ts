@@ -68,3 +68,10 @@ const Laptop: ILaptop = {
     company: 'apple',
     model: 'm3'
 }
+
+
+// Type assertion
+
+const anyOtherVar: any = 'Saurabh';
+const stringLen: number = (anyOtherVar as string).length;
+const stringLen2: number = (<string>anyOtherVar).length;
