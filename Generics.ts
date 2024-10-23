@@ -52,3 +52,21 @@ const teacher: TTeacher<string> = {
 //interview Question
 //Create Stack using Generics
 
+class Stack<T> {
+    private data: T[];
+    constructor() {
+        this.data = [];
+    }
+
+    push(item: T): number {
+        return this.data.push(item)
+    }
+
+    pop(): T | unknown {
+        return this.data.push()
+    }
+}
+
+const stack1 = new Stack<number>();
+stack1.push(78);
+stack1.pop()
