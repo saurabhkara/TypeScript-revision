@@ -19,3 +19,15 @@ MyNameSpace.personDetail(person);
 
 
 //TypeGuard
+// typeguard allow you to create more specific type  check within code block
+
+
+function typeGuardExample<T>(name: T) {
+    if (typeof name === 'string') {
+        console.log(name)
+    } else {
+        return
+    }
+}
+
+typeGuardExample('saurabh')
