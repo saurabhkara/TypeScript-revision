@@ -30,4 +30,18 @@ function typeGuardExample<T>(name: T) {
     }
 }
 
-typeGuardExample('saurabh')
+typeGuardExample('saurabh');
+
+
+//Index signature
+//Allows you to define types for dynamic property keys
+
+interface InameArr {
+    [key: number]: string
+}
+
+const nameArr: InameArr = ['saurabh', 'kumar', 'Google'];
+
+const nameObj: InameArr = {
+    1: 'Saurabh'
+}
