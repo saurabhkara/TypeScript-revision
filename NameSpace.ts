@@ -48,7 +48,7 @@ const nameObj: InameArr = {
 
 //keyof operator
 
-interface IAddress {
+export interface IAddress {
     street: string,
     city: string,
     state: string,

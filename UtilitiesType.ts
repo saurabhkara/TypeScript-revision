@@ -1,4 +1,5 @@
 //Utilities type
+import { IAddress } from "./NameSpace"
 
 //Partial 
 
