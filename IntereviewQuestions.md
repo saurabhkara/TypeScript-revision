@@ -1,0 +1,2 @@
+- What is typescript and how does it differ from JavaScript ?
+-
