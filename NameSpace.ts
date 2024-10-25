@@ -45,3 +45,23 @@ const nameArr: InameArr = ['saurabh', 'kumar', 'Google'];
 const nameObj: InameArr = {
     1: 'Saurabh'
 }
+
+//keyof operator
+
+interface IAddress {
+    street: string,
+    city: string,
+    state: string,
+    country: string
+}
+
+const Address: IAddress = {
+    street: 'XYZ',
+    city: 'MMMM',
+    state: 'Bihar',
+    country: 'India'
+}
+
+const addressAttribute: keyof IAddress = 'city';
+
+
